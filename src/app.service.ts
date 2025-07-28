@@ -88,7 +88,7 @@ export class AppService {
       'https://services.leadconnectorhq.com/calendars/events/appointments',
       {
         calendarId,
-        ignoreFreeSlotValidation: false,
+        ignoreFreeSlotValidation: true,
         locationId: '2U58e0avwqmV1ZPgu51f',
         contactId: customerId,
         title,
@@ -100,8 +100,6 @@ export class AppService {
         toNotify: false,
         userId: 'bEWnXDetU4orRhvhL1d6',
         assignedUserId: 'bEWnXDetU4orRhvhL1d6',
-        overrideLocationConfig: false,
-        isCustomRecurring: false,
       },
       {
         headers: {
