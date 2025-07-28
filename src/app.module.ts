@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { CalendersModule } from './calenders/calenders.module';
 import { ConfigModule } from '@nestjs/config';
+import { HttpModule } from '@nestjs/axios';
 
 @Module({
-  imports: [CalendersModule, ConfigModule.forRoot()],
+  imports: [ConfigModule.forRoot(), HttpModule],
   controllers: [AppController],
   providers: [AppService],
 })
