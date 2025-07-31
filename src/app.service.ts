@@ -98,8 +98,8 @@ export class AppService {
         appointmentStatus: 'confirmed',
         ignoreDateRange: true,
         toNotify: false,
-        userId: 'bEWnXDetU4orRhvhL1d6',
-        assignedUserId: 'bEWnXDetU4orRhvhL1d6',
+        userId: '65VLN1Qmf3Mti1jSKRR9',
+        assignedUserId: '65VLN1Qmf3Mti1jSKRR9',
       },
       {
         headers: {
